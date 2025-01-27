@@ -37,8 +37,10 @@
     </script>
   </head>
 
-  <body class="font-manrope container mx-auto">
-    <header class="max-w-screen-xl px-4 md:px-6 lg:px8 lg:my-24 my-6 mx-auto">
+  <body class="font-manrope mx-auto">
+    <header
+      class="max-w-screen-xl px-4 md:px-6 lg:px8 lg:my-24 my-6 mx-auto container"
+    >
       <!-- Banner -->
       <section class="lg:flex justify-center gap-10">
         <div>
@@ -82,7 +84,7 @@
       </section>
     </header>
 
-    <main class="max-w-screen-xl m-auto px-4 md:px-6 mb-20 lg:px8">
+    <main class="container max-w-screen-xl m-auto px-4 md:px-6 mb-20 lg:px8">
       <!-- Featured Products -->
       <section class="text-center my-24">
         <!-- Description -->
@@ -324,6 +326,79 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="bg-red-100">
+      <!-- container -->
+      <div class="max-w-screen-xl m-auto px-4 md:px-6 lg:px8 py-32">
+        <!-- First part -->
+        <div class="flex justify-between items-center mb-24">
+          <img src="images/cup.png" alt="" />
+          <div class="flex items-center gap-10">
+            <p class="text-xl font-medium">Ready to get strated?</p>
+            <button
+              class="rounded-lg bg-gradient-to-r from-orange-500 to-red-500 px-6 py-4 font-bold text-xl text-white"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+        <!-- 2nd part -->
+        <div class="flex justify-between flex-wrap">
+          <!-- 1st menu -->
+          <div>
+            <h5 class="font-semibold text-xl mb-6">Quick Links</h5>
+            <ul>
+              <li class="mb-3">Home</li>
+              <li class="mb-3">About Us</li>
+              <li class="mb-3">Insurance</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <!-- 2nd menu -->
+          <div>
+            <h5 class="font-semibold text-xl mb-6">Our Service</h5>
+            <ul>
+              <li class="mb-3">Life Insurance</li>
+              <li class="mb-3">Car Insurance</li>
+              <li class="mb-3">Health Insurance</li>
+              <li>House Insurance</li>
+            </ul>
+          </div>
+          <!-- 3rd menu -->
+          <div>
+            <h5 class="font-semibold text-xl mb-6">Help</h5>
+            <ul>
+              <li class="mb-3">FAQs</li>
+              <li class="mb-3">Contact Us</li>
+            </ul>
+          </div>
+          <!-- Subscribe -->
+          <div class="pt-10 sm:pt-0">
+            <h1 class="font-semibold text-xl mb-6 max-w-52">
+              Subscribe to our newsletter
+            </h1>
+            <!-- Email input -->
+            <div>
+              <input
+                class="bg-transparent placeholder:text-black text-sm border-b border-black py-5"
+                type="text"
+                placeholder="Email address"
+              />
+              <i
+                class="fa-solid fa-greater-than w-8 h-8 pt-2 rounded-full text-white bg-gradient-to-r from-orange-500 to-red-500 text-center"
+              ></i>
+            </div>
+            <!-- social media -->
+            <div class="mt-12">
+              <i class="fa-brands fa-facebook pr-6"></i>
+              <i class="fa-brands fa-twitter pr-6"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pt-14 text-center">
+          <p>© 2027 UIDesign.to - All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
